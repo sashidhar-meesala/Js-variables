@@ -1,0 +1,84 @@
+~<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Js variables lab</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+   <h1 style="color:red; width: 100%; text-align: center; background-color:cornflowerblue;">Javascript Variable Practice Lab</h1>
+<section class="layout">
+    <article class="element">
+        <h2>The Fortune Teller</h2>
+        <form action="" method="get" class="form-example">
+            <label for="Job title">Enter your job title: </label>
+            <input type="text" name="jobtitle" id="jobtitle" required>
+            <label for="geogrpahic location">Enter your Geogrpahic loaction: </label>
+            <input type="text" name="geogrpahic loaction" id="geolocation" required>
+            <label for="annual salary">Enter your annual salary: </label>
+            <input type="text" name="salary" id="salary" required>
+            <label for="company">Enter your company: </label>
+            <input type="text" name="company" id="company" required>
+            <input type="button" value="tell me my fortune" id="fortune">
+            <div id="outputFortune"></div>
+        </form>
+        
+    </article>
+
+    <article class="element">
+        <h2>Age calculator</h2>
+        <form action="" method="get" class="form-example">
+            <label for="year">Enter birth year : </label>
+            <input type="number" name="year" id="year" required>
+            <input type="button" value="what's my age?" id="agebut">
+            <div id="outputAge"></div>
+        </form>
+    </article>
+     
+    <article class="element">
+        <h2>lifetime supply calculator</h2>
+        <form action="" method="get" class="form-example">
+            <label for="age">Enter your age : </label>
+            <input type="text" name="age" id="age" required>
+            <input type="button" value="How much do i need?" id="lifetime">
+            <div id="outputSupply"></div>
+        </form>
+    </article>
+
+
+        
+    <article class="element">
+        <h2>The Geometrizer</h2>
+        <form action="" method="get" class="form-example">
+            <label for="radius">Enter radius : </label>
+            <input type="text" name="radius" id="radius" required> <br>
+
+            <input type="button" value="calculate area" id="area">
+            <input type="button" value="calculate circumference" id="circumference">
+            <div id="outputGeo"></div>
+
+        </form>
+    </article>
+
+
+    <article class="element">
+        <h2>The temperature converter</h2>
+        <form action="" method="get" class="form-example">
+            <label for="celsius temperature">Enter temperature in celcius: </label> 
+            <input type="text" name="Ctemp" id="Ctemp">
+            <input type="button" value="convert into F" id="CtoF">
+           
+            <label for="celsius temperature">Enter temperature in fahrenheit: </label> 
+            <input type="text" name="Ftemp" id="Ftemp">
+            <input type="button" value="convert into C" id="FtoC">
+
+            <div id="outputTemp"></div>
+        </form>
+    </article>
+
+</section>
+<script src="js/index.js"></script>
+</body>
+</html>
